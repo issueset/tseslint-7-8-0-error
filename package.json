@@ -2,7 +2,6 @@
   "name": "my-monorepo",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.15.3",
   "private": true,
   "scripts": {
     "build": "tsc -b .",
@@ -13,8 +12,5 @@
     "typescript": "5.4.5",
     "typescript-eslint": "7.8.0"
   },
-  "pnpm": {
-    "overrides": {},
-    "patchedDependencies": {}
-  }
+  "workspaces": ["packages/core", "packages/dev"]
 }
