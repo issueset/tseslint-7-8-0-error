@@ -3,13 +3,17 @@
   "compilerOptions": {
     "composite": true
   },
-  "include": ["./*.js", "./*.ts", ".changeset/*.cjs"],
+  "include": [
+    "./*.js",
+    "./*.ts",
+    ".changeset/*.cjs"
+  ],
   "references": [
     {
-      "path": "packages/core/tsconfig.json",
+      "path": "packages/core/tsconfig.json"
     },
     {
-      "path": "packages/dev/tsconfig.json",
-    },
-  ],
+      "path": "packages/dev/tsconfig.json"
+    }
+  ]
 }
