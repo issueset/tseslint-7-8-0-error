@@ -1,0 +1,19 @@
+{
+  "name": "my-monorepo",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b .",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.8.0"
+  },
+  "pnpm": {
+    "overrides": {},
+    "patchedDependencies": {}
+  }
+}
